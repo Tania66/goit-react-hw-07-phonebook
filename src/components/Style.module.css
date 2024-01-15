@@ -1,0 +1,78 @@
+.inner {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(79, 46, 232, 0.4);
+  background: #202024;
+}
+
+.title {
+  color: #f6f6f6;
+}
+
+.form {
+  margin-bottom: 50px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  color: #f6f6f6;
+}
+
+.input {
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.btnSubmit {
+  border-radius: 40px;
+  background: #111;
+  border: 1px solid #f6f6f6;
+  padding: 10px 20px;
+  color: #ffff;
+  margin-top: 20px;
+}
+
+.list {
+  color: #f6f6f6;
+}
+
+.filter {
+  color: #f6f6f6;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  gap: 10px;
+}
+
+.inputFilter {
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.item {
+  padding: 5px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+.btnDelete {
+  display: block;
+  border-radius: 40px;
+  background: #111;
+  border: 1px solid #f6f6f6;
+  padding: 5px 15px;
+  color: #ffff;
+  margin-top: 20px;
+}
